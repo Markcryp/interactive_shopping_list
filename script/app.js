@@ -50,7 +50,10 @@ function addItem(event) {
     shoppingList.push(event.target[0].value);
     console.log(shoppingList);
 
-    displayItems();    
+    displayItems(); 
+
+    event.target.reset = '';   
 }
+
 
 
